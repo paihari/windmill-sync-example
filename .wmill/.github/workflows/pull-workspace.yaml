@@ -6,7 +6,7 @@ on:
 
 env:
   WMILL_URL: https://app.windmill.dev/
-  WMILL_WORKSPACE: github-sync-example
+  WMILL_WORKSPACE: sync-demo-paihari
 
 jobs:
   sync:
