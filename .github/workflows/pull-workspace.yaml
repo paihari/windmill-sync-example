@@ -10,7 +10,7 @@ env:
 
 jobs:
   sync:
-    environment: windmill
+    environment: windmill-cloud
     runs-on: "ubuntu-latest"
     steps:
       - name: Checkout
@@ -23,7 +23,7 @@ jobs:
       # Pull changes
       - name: Pull changes
         run: |
-          deno run --unstable -A  https://deno.land/x/wmill@v1.104.0/main.ts workspace add __automation ${{ env.WMILL_WORKSPACE }} ${{ env.WMILL_URL }} --token ${{ secrets.WMILL_TOKEN }}
+          deno run --unstable -A  https://deno.land/x/wmill@v1.104.0/main.ts workspace add __automation ${{ env.WMILL_WORKSPACE }} ${{ env.WMILL_URL_CLOUD }} --token ${{ secrets.WMILL_TOKEN }}
           deno run --unstable -A  https://deno.land/x/wmill@v1.104.0/main.ts sync pull --yes
       - name: Create Pull Request
         id: cpr
