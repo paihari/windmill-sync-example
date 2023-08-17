@@ -23,7 +23,7 @@ jobs:
       # Pull changes
       - name: Pull changes
         run: |
-          deno run --unstable -A  https://deno.land/x/wmill@v1.104.0/main.ts workspace add __automation ${{ env.WMILL_WORKSPACE }} ${{ env.WMILL_URL }} --token ${{ secrets.WMILL_TOKEN_CLOUD }}
+          deno run --unstable -A  https://deno.land/x/wmill@v1.104.0/main.ts workspace add __automation ${{ env.WMILL_WORKSPACE }} ${{ env.WMILL_URL }} --token ${{ secrets.WMILL_TOKEN }}
           deno run --unstable -A  https://deno.land/x/wmill@v1.104.0/main.ts sync pull --yes
       - name: Create Pull Request
         id: cpr
