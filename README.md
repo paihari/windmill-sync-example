@@ -1,2 +1,2 @@
 # windmill-sync-example
-v0.0.3
+Automatic Sync of the Windmill Workspace with GitHub Repository using GitHub Actions
