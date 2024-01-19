@@ -1,8 +1,9 @@
 summary: Execute an arbitrary SQL query on a Postgres resource
 description: 'An example of how to use resources from scripts. '
-lock: []
+lock: ''
 is_template: false
 kind: script
+restart_unless_cancelled: false
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object

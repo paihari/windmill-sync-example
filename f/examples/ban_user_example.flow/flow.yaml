@@ -131,4 +131,4 @@ schema:
     - gmail
     - db
     - slack
-tag: null
+ws_error_handler_muted: false

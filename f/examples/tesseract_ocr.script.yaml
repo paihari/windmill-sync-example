@@ -1,8 +1,9 @@
 summary: OCR an image with Tesseract
 description: Recognize text from an image using tesseract's OCR  and output it
-lock: []
+lock: ''
 is_template: false
 kind: script
+restart_unless_cancelled: false
 schema:
   $schema: 'https://json-schema.org/draft/2020-12/schema'
   type: object
