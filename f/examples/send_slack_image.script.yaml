@@ -3,7 +3,6 @@ description: >-
   Send a base64 image to a slack channel or user. Choose one of user or channel
   but not both.
 lock: slack-sdk==3.19.5
-is_template: false
 kind: script
 restart_unless_cancelled: false
 schema:

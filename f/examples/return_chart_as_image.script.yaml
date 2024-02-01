@@ -17,7 +17,6 @@ lock: |-
   pytz==2022.7.1
   seaborn==0.12.2
   six==1.16.0
-is_template: false
 kind: script
 restart_unless_cancelled: false
 schema:
