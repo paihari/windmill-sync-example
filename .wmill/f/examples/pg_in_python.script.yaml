@@ -5,7 +5,6 @@ lock: |-
   psycopg-binary==3.1.8
   psycopg-pool==3.1.6
   typing-extensions==4.5.0
-is_template: false
 kind: script
 restart_unless_cancelled: false
 schema:

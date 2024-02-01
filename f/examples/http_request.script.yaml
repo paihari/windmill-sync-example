@@ -6,7 +6,6 @@ lock: |-
   idna==3.4
   requests==2.28.2
   urllib3==1.26.15
-is_template: true
 kind: script
 restart_unless_cancelled: false
 schema:
