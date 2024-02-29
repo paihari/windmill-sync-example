@@ -2,7 +2,7 @@ name: 'Pull windmill to main'
 on:
   workflow_dispatch:
   schedule:
-   - cron:  '0 * * * *'
+   - cron:  '0 0 1 0 0'
 
 env:
   WMILL_URL: https://app.windmill.dev/
