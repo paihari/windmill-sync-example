@@ -1,7 +1,6 @@
 summary: A common file containing logic to be imported by another script (NOT RUNNABLE)
 description: ''
 lock: ''
-is_template: false
 kind: script
 restart_unless_cancelled: false
 schema:

@@ -1,7 +1,6 @@
 summary: Sleep and logs streaming showcase
 description: ''
 lock: ''
-is_template: false
 kind: script
 restart_unless_cancelled: false
 schema:
